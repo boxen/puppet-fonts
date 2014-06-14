@@ -14,7 +14,7 @@ include fonts
 include fonts::adobe
 
 # Install Adobe SourceSansPro only
-include fonts::adobe::sourcesansPro
+include fonts::adobe::sourcesanspro
 ```
 
 ## Required Puppet Modules
