@@ -1,4 +1,3 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class fonts {
+  include fonts::adobe
 }
