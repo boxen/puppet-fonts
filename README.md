@@ -1,4 +1,4 @@
-# Fonts Module for Boxen
+# Fonts Puppet Module for Boxen
 
 This is Boxen Module that allows you to install your favorite fonts on your machine.
 
