@@ -1,3 +1,0 @@
-class fonts::adobe::sourcecodpro {
-
-}

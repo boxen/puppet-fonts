@@ -1,7 +1,4 @@
-define fonts::adobe::sourcesanspro {
-
-}
-
-define fonts::adobe::sourcecodepro {
-
+class fonts::adobe {
+  include fonts::adobe::sourcecodepro
+  include fonts::adobe::sourcesanspro
 }
