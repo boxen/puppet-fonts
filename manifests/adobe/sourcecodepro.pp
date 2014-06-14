@@ -1,3 +1,4 @@
+# Definition for the installation of the SourceCodePro font by Adobe
 define sourcecodepro {
   include fonts::adobe::sourcecodepro
   $fonts="/Users/${::luser}/Library/Fonts"
@@ -10,6 +11,10 @@ define sourcecodepro {
   }
 }
 
+# Install the Abobe SourceCodePro font into Font Book
+#
+# Example
+#   include fonts::adobe::sourcecodepro
 class fonts::adobe::sourcecodepro {
   sourcecodepro {
     [

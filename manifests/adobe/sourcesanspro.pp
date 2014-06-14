@@ -1,3 +1,4 @@
+# Definition for the installation of the SourceSansPro font by Adobe
 define sourcesanspro {
   include fonts::adobe::sourcesanspro
   $fonts="/Users/${::luser}/Library/Fonts"
@@ -10,6 +11,10 @@ define sourcesanspro {
   }
 }
 
+# Install the Abobe SourceSansPro font into Font Book
+#
+# Example
+#   include fonts::adobe::sourcesanspro
 class fonts::adobe::sourcesanspro {
   sourcesanspro {
     [

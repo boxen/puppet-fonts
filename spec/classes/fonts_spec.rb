@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe 'fonts' do
-  it { should include_class('fonts')}
-  it { should include_class('fonts::adobe')}
+  it should do
+    should include_class('fonts')
+    should include_class('fonts::adobe')
+  end
 end
