@@ -1,4 +1,4 @@
-# Fonts Puppet Module for Boxen
+# Fonts Module for Boxen
 
 This is Boxen Module that allows you to install your favorite fonts on your machine.
 
@@ -7,6 +7,9 @@ This is Boxen Module that allows you to install your favorite fonts on your mach
 ## Usage
 
 ```puppet
+# Install all of the fonts
+include fonts
+
 # Install Adobe fonts
 include fonts::adobe
 
