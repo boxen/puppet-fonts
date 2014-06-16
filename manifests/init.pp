@@ -5,4 +5,5 @@
 #   include fonts
 class fonts {
   include fonts::adobe
+  include fonts::typoland
 }

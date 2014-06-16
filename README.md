@@ -15,7 +15,12 @@ include fonts::adobe
 
 # Install Adobe SourceSansPro only
 include fonts::adobe::sourcesanspro
+
+# Install Lato font by tyPoland Łukasz Dziedzic
+include fonts::typoland::lato
 ```
+
+For a list of available fonts see the [Wiki](https://github.com/boxen/puppet-fonts/wiki)
 
 ## Required Puppet Modules
 
