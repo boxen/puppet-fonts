@@ -18,6 +18,9 @@ include fonts::adobe::sourcesanspro
 
 # Install Lato font by tyPoland Łukasz Dziedzic
 include fonts::typoland::lato
+
+# Install Monoid font by larsenwork
+include fonts::larsenwork::monoid
 ```
 
 For a list of available fonts see the [Wiki](https://github.com/boxen/puppet-fonts/wiki)
